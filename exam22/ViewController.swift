@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 
     @IBAction func whiteButtonClicked(_ sender: Any) {
         performSegue(withIdentifier: "toSecondVC", sender: nil)
-
+        print("second vc a geçildi")
     }
     
 }
